@@ -1,0 +1,248 @@
+*{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+   font-size:12px;
+}
+html ,body{
+    height:100%;
+}h1 ,h4{
+    text-align: center;
+}
+#page{
+   display: flex;
+    height:100%;
+}
+#aside{
+    overflow: auto;
+    width:30%;
+    background-color: #d9d9d9;
+    height:100%;
+}/*#8ff0a4*/
+#main{
+height:100%;
+width:70%;
+}
+
+nav{
+    display: flex; 
+    justify-content: center;
+align-self:center;
+align-items: center;
+background-color: #d9d9d9;
+height:8%;
+max-height:8%;
+width:50%;
+overflow: auto;
+border-bottom:1px solid black; 
+border-right:1px solid black;
+}
+#content{  
+  border-bottom:1px solid black;  
+  border-left:1px solid black;
+height:86%;
+} 
+.btn{ 
+    color:rgb(54, 51, 51);
+    font-size:12px;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    margin-left:10%;
+    margin-right:10%;
+    word-wrap: normal;
+}.btn:hover{color:rgb(14, 18, 82);
+    background-color:#00fff709;
+    padding:5px;
+  box-shadow: 0 0 4px 2px rgba(29, 49, 46, 0.904),  0 0 0 0 rgba(3, 48, 51, 0.651);
+ 
+}#imgdiv{margin:10px 20%;
+    width:60%;
+    border:1px solid black;
+  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
+  }#imgdiv img{
+      border-radius:50%;
+      margin-bottom:10px;
+  }#imgdiv img:hover{
+    transform: scaleX(-1);
+  }#info{margin:10px 5%;
+    width:90%;
+  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:1px solid black;
+    padding: 10px 20px;
+  } 
+ 
+  #info ul ,#info dl{
+   list-style-type:circle;
+    padding-left:10px;
+    padding-bottom:10px;
+  }#info dl dd{
+    padding-left:30px;
+  }
+  /*________________________________________________________
+
+  #info dd{
+
+  
+  /*________________________________________________________*/
+  #aside::-webkit-scrollbar {
+    width:10px;
+} #aside::-webkit-scrollbar-track {
+    background-color:#d9d9d9;
+}#aside::-webkit-scrollbar-thumb {
+    box-shadow: inset 0px 0px 4px rgb(11, 3, 128);
+}footer{  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+height: 6%;
+background-color: #d9d9d9;
+}
+footer img{
+ cursor: pointer;
+    margin:0px 20px;
+   
+    
+} 
+footer img:hover{
+    box-shadow: 0px 0px 6px 1px black;
+    border-radius:20%;
+}
+
+body::-webkit-scrollbar {
+   display: none;
+}
+/*--------------------------------------------------------------------------------------*/
+    #galery{margin: 10px auto;
+    width:70%;
+    height:90%;
+    position: relative;
+    }
+    #dvimg{height:90%;
+    position:relative;
+        margin:0 auto;
+    }#button{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top:50%;
+
+        width:100%;
+       
+    }#button .gbtn:nth-child(2){
+        margin-left:110%;
+    }.gbtn{color: black;
+        border: none;
+        background-color: #a8a7a7;
+        font-size:12px;
+       cursor: pointer;
+       padding:10px;
+    }
+.img{
+border:2px dashed rgb(0, 0, 0);
+position: absolute;
+width:100%;
+height:100%;
+}
+
+.Wanime{    
+    animation-name:myanime;
+    animation-duration: 200ms;
+}@keyframes myanime{
+    from {width:0%;height: 0%;}
+    to {width:40%;height: 80%}}
+    /*****/
+    .contre_Wanime{    
+        animation-name:my_contre_anime;
+        animation-duration: 200ms;
+    }@keyframes my_contre_anime{
+        from {width:40%;height: 80%;}
+        to {width:0%;height:0%}}
+/************************************style popwindow*******************************************************/
+#y_popwindow{
+    overflow: hidden;
+    display: none;
+position:absolute;
+width:40%;
+height:80%;
+top:7%;
+left:50%;
+background-color: rgb(250, 250, 250);
+box-shadow: 1px 1px 5px 4px black;
+z-index:2;
+}
+
+#y_btn_pop_close{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+border:none;
+background-color:transparent;
+
+
+}
+#y_btn_pop_fullwindow{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+border:none;
+background-color:transparent;
+
+}
+#y_btn_pop_close img:hover{
+    border-radius:50%;
+    box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
+}#y_btn_pop_fullwindow img:hover{
+    border-radius:50%;
+    box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
+}
+#y_popwindow form{
+    height:100%;
+    
+}
+#y_popwindow fieldset{
+    padding-top:20px;
+    border:1px solid;
+    margin:0px 5px;
+    border-color: #000;
+    border-radius:4px;
+    height:90%;
+}#y_popwindow legend{
+    text-align: center;
+}
+#y_popwindow label{
+    display: inline-block;
+    width:40%;
+}#y_popwindow input{
+  
+    color: #018f4c;
+    width:40%;
+}#y_popwindow textarea{
+    width:90%;
+    margin-left:5%;
+}
+#y_block_btn_close_pop{
+    
+  
+    display: flex;
+    justify-content: end;
+    margin-bottom:10px;
+background-color: #2e2e2e;
+padding:7px;
+}
+#y_block_btn_close_pop:active{
+    cursor: move;
+}
+
+#y_form_btn{
+    display: flex;
+    justify-content: center;
+  
+}#y_form_btn button:nth-child(2){
+    margin-left:20%;
+}

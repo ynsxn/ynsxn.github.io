@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="myprofile_style.css">
+    <meta charset="UTF-8">
+    <title>myprofile</title>
+</head>
+<body >
+    <!-- ouverture de la grand section du page -->
+<section id="page">
+    <!--side bar-->
+<aside id="aside">
+    <!--image de profile-->
+    <section id="imgdiv">
+        <img src="julian-wan-WNoLnJo7tS8-unsplash.jpg" width="150" alt="" id="profileimg">
+        <p>youness chahramane</p>
+    </section>
+<!--mes information -->
+    <section id="info">
+        <h3>information</h3>
+        <ul>
+          <!--<li>first-name: youness</li>
+            <li>second-name: chaharamane</li>-->  
+            <li>tel: 0767689425</li>
+            <li>email:younyouness9@gmail.com</li>
+        </ul>
+        <!-- formation-->
+        <h3>formation</h3>
+        <dl>
+            <dt><u>bac:2017</u></dt>
+            <dd>baccaleauri en sience physique</dd>
+            <dt><u>deug:2020</u></dt>
+            <dd>diplome d'etude universitaire general en phisique </dd>
+            <dt><u>licence:2021</u></dt>
+            <dd>licence fondamental en electronique</dd>
+            <dt><u>dtsdd:en-cours</u></dt>
+            <dd>diplome tecinsien specialise en develpement digital</dd>
+        </dl>
+        <!--competence-->
+        <h3>skills</h3>
+        <ul>
+            <li>web develpement</li>
+            <li>c++ langauge</li>
+            <li>photoshop</li>
+            <li>inkscape</li>
+        </ul>
+<!--loisire-->
+        <h3>hobbies</h3>
+        <ul>
+            <li>coding</li>
+            <li>Watch movies</li>
+            <li>read about phisique and mathematique theorie</li>
+            <li>Electronic equipment repair</li>
+        </ul>
+    </section>
+</aside>
+<!--page principal-->
+<section id="main">
+    <nav>
+<button class="btn">Services</button>
+<button id="y_btn_leavmsg" class="btn">leave-mesg</button>
+    </nav>
+    <section  id="content">
+        <h4>my galery</h4>
+        <section id="galery">
+            <section id="dvimg">
+               <img class="img" src="img/balazs-ketyi-LPWl2pEVGKc-unsplash.jpg" alt="">
+               <img class="img" src="img/ben-kolde-bs2Ba7t69mM-unsplash.jpg" alt="">
+               <img class="img" src="img/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="">
+               <img class="img" src="img/igor-miske-JVSgcV8_vb4-unsplash.jpg" alt="">
+               <img class="img" src="img/igor-miske-Px3iBXV-4TU-unsplash.jpg" alt="">
+               <img class="img" src="img/john-jennings-fg7J6NnebBc-unsplash.jpg" alt="">
+               <img class="img" src="img/kelly-sikkema-gcHFXsdcmJE-unsplash.jpg" alt="">
+               <img class="img" src="img/largeImageSrc.adapt_.740.medium.jpg" alt="">
+               <img class="img" src="img/ux-store-jJT2r2n7lYA-unsplash.jpg" alt="">
+            </section>
+                <section id="button">
+                    <button id="btn1" class="gbtn">next</button>
+                    <button id="btn2" class="gbtn">prev</button>
+                </section>
+            </section>
+    </section>
+    <!--contact-me--------------------------------------------->
+
+      <!--*****************fin galery************************-->
+<footer >
+    <span>&#169;All copyrights are reserved</span>
+    <a href="#"><img src="image/facebook.svg" alt=""></a>
+    <a href="#"><img src="image/linkedin.svg" alt=""></a>
+    <a href="#"><img src="image/twitter.svg" alt=""></a>
+    <a href="#"><img src="image/whatsapp.svg" alt=""></a>
+    <a href="#"><img src="image/youtube.svg" alt=""></a>
+</footer>
+</section>
+</section>
+
+<!--**********************************popwindow*************************************-->
+<section id="y_popwindow">
+    <section id="y_block_btn_close_pop">
+        <button id="y_btn_pop_fullwindow"><img src="icon-image/fullwindow-icon.svg" alt="" srcset=""></button>
+        <button id="y_btn_pop_close"><img src="icon-image/close-icon.svg" alt="" srcset=""></button>
+        <br></section> 
+<form  action="" onsubmit="return false">
+   
+    <fieldset>
+        <legend>leave message</legend>
+<label for="y_form_name">first name:</label><input type="text" id="y_form_name" placeholder="your first name please"><br><br>
+<label for="y_form_Sname">second name:</label><input type="text" placeholder="your second name please" id="y_form_Sname"><br><br>
+<label for="y_form_email">email:</label><input type="email" placeholder="your email please" id="y_form_email"><br><br>
+<label for="y_form_tel">tel:</label><input type="number" placeholder="your number please" id="y_form_tel"><br><br>
+<label for="y_form_message">leave message:</label><br><br><textarea name="y_form_message" id="y_form_message" cols="30" rows="10"></textarea><br><br>
+<section id="y_form_btn">
+    <button type="submit" id="y_send_btn">send</button>
+<button type="reset" id="y_reset_btn">reset</button>
+</section>
+    </fieldset>
+</form>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
